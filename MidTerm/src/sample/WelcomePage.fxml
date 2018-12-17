@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:controller="sample.LoginControl" fx:id="Welcome_login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="464.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="LogInButton" layoutX="200.0" layoutY="340.0" mnemonicParsing="false" onAction="#LogInButton" prefHeight="49.0" prefWidth="92.0" text="Login" />
+      <Button fx:id="SignUpButton" layoutX="162.0" layoutY="413.0" mnemonicParsing="false" onAction="#SignUpButton" prefHeight="77.0" prefWidth="169.0" text="signup" />
+      <Label layoutX="107.0" layoutY="26.0" text="WELCOME">
+         <font>
+            <Font name="Lucida Bright" size="56.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="105.0" text="Enter Your Id">
+         <font>
+            <Font name="Lucida Bright" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="173.0" text="password">
+         <font>
+            <Font name="Lucida Bright" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Id_input" layoutX="235.0" layoutY="105.0" onAction="#Id_input" prefHeight="42.0" prefWidth="187.0" />
+      <TextField fx:id="Pass_input" layoutX="235.0" layoutY="167.0" onAction="#Pass_input" prefHeight="42.0" prefWidth="187.0" />
+   </children>
+</AnchorPane>

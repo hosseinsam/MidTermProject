@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="signUpPane" prefHeight="555.0" prefWidth="502.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUpControl">
+   <children>
+      <Button fx:id="BackLogin" layoutX="158.0" layoutY="417.0" mnemonicParsing="false" onAction="#BackLogin" prefHeight="88.0" prefWidth="186.0" text="signup">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Button>
+      <Label layoutX="54.0" layoutY="64.0" prefHeight="88.0" prefWidth="283.0" text="Enter userName">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="158.0" text="Enter Password">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="password_set" layoutX="292.0" layoutY="166.0" onAction="#password_set" />
+      <TextField fx:id="user_set" layoutX="292.0" layoutY="93.0" onAction="#user_set" />
+   </children>
+</AnchorPane>
